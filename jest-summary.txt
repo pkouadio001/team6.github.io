@@ -1,0 +1,20 @@
+node.exe : FAIL e2e/signin.spec.ts
+    + CategoryInfo          : NotSpecified: (FAIL e2e/signin.spec.ts:String) [ 
+FAIL e2e/messages.spec.ts
+FAIL e2e/landing.spec.ts
+FAIL e2e/dashboard.spec.ts
+PASS src/pages/AppointmentsPage.test.tsx
+PASS src/pages/HealthLogPage.test.tsx
+PASS src/pages/MedicationsPage.test.tsx
+PASS src/pages/AccountSettingsPage.test.tsx
+PASS src/pages/EmergencyPage.test.tsx
+PASS src/components/DashboardLayout.test.tsx
+PASS src/App.test.tsx
+PASS src/pages/SignInPage.test.tsx
+PASS src/pages/DashboardPage.test.tsx
+PASS src/pages/MessagesPage.test.tsx
+PASS src/pages/LandingPage.test.tsx
+PASS src/components/Button.test.jsx
+Test Suites: 4 failed, 12 passed, 16 total
+Tests:       74 passed, 74 total
+Ran all test suites.

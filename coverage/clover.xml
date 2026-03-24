@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1774146892390" clover="3.2.0">
-  <project timestamp="1774146892390" name="All files">
-    <metrics statements="242" coveredstatements="219" conditionals="143" coveredconditionals="129" methods="159" coveredmethods="127" elements="544" coveredelements="475" complexity="0" loc="242" ncloc="242" packages="3" files="12" classes="12"/>
+<coverage generated="1774321715849" clover="3.2.0">
+  <project timestamp="1774321715849" name="All files">
+    <metrics statements="242" coveredstatements="219" conditionals="143" coveredconditionals="129" methods="159" coveredmethods="127" elements="544" coveredelements="475" complexity="0" loc="242" ncloc="242" packages="3" files="13" classes="13"/>
     <package name="src">
       <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="App.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\App.tsx">
+      <file name="App.tsx" path="D:\school\team6.github.io\src\App.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="14" count="2" type="stmt"/>
       </file>
-      <file name="test-utils.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\test-utils.tsx">
+      <file name="jest-globals.d.ts" path="D:\school\team6.github.io\src\jest-globals.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="test-utils.tsx" path="D:\school\team6.github.io\src\test-utils.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="9" count="67" type="stmt"/>
       </file>
     </package>
     <package name="src.components">
       <metrics statements="19" coveredstatements="17" conditionals="18" coveredconditionals="13" methods="7" coveredmethods="5"/>
-      <file name="DashboardLayout.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\components\DashboardLayout.tsx">
+      <file name="DashboardLayout.tsx" path="D:\school\team6.github.io\src\components\DashboardLayout.tsx">
         <metrics statements="19" coveredstatements="17" conditionals="18" coveredconditionals="13" methods="7" coveredmethods="5"/>
         <line num="5" count="4" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
@@ -40,7 +43,7 @@
     </package>
     <package name="src.pages">
       <metrics statements="221" coveredstatements="200" conditionals="123" coveredconditionals="114" methods="150" coveredmethods="120"/>
-      <file name="AccountSettingsPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\AccountSettingsPage.tsx">
+      <file name="AccountSettingsPage.tsx" path="D:\school\team6.github.io\src\pages\AccountSettingsPage.tsx">
         <metrics statements="49" coveredstatements="41" conditionals="28" coveredconditionals="26" methods="36" coveredmethods="23"/>
         <line num="6" count="76" type="stmt"/>
         <line num="7" count="76" type="stmt"/>
@@ -92,7 +95,7 @@
         <line num="527" count="41" type="stmt"/>
         <line num="533" count="0" type="stmt"/>
       </file>
-      <file name="AppointmentsPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\AppointmentsPage.tsx">
+      <file name="AppointmentsPage.tsx" path="D:\school\team6.github.io\src\pages\AppointmentsPage.tsx">
         <metrics statements="30" coveredstatements="26" conditionals="21" coveredconditionals="17" methods="22" coveredmethods="17"/>
         <line num="17" count="2" type="stmt"/>
         <line num="24" count="120" type="stmt"/>
@@ -125,7 +128,7 @@
         <line num="380" count="0" type="stmt"/>
         <line num="389" count="0" type="stmt"/>
       </file>
-      <file name="DashboardPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\DashboardPage.tsx">
+      <file name="DashboardPage.tsx" path="D:\school\team6.github.io\src\pages\DashboardPage.tsx">
         <metrics statements="15" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="8"/>
         <line num="5" count="7" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
@@ -143,7 +146,7 @@
         <line num="195" count="21" type="stmt"/>
         <line num="303" count="21" type="stmt"/>
       </file>
-      <file name="EmergencyPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\EmergencyPage.tsx">
+      <file name="EmergencyPage.tsx" path="D:\school\team6.github.io\src\pages\EmergencyPage.tsx">
         <metrics statements="38" coveredstatements="35" conditionals="30" coveredconditionals="29" methods="28" coveredmethods="22"/>
         <line num="12" count="2" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
@@ -184,7 +187,7 @@
         <line num="494" count="1" type="stmt"/>
         <line num="502" count="0" type="stmt"/>
       </file>
-      <file name="HealthLogPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\HealthLogPage.tsx">
+      <file name="HealthLogPage.tsx" path="D:\school\team6.github.io\src\pages\HealthLogPage.tsx">
         <metrics statements="30" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="20" coveredmethods="17"/>
         <line num="17" count="2" type="stmt"/>
         <line num="40" count="2" type="stmt"/>
@@ -217,7 +220,7 @@
         <line num="317" count="0" type="stmt"/>
         <line num="325" count="1" type="stmt"/>
       </file>
-      <file name="LandingPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\LandingPage.tsx">
+      <file name="LandingPage.tsx" path="D:\school\team6.github.io\src\pages\LandingPage.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="6" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
@@ -227,7 +230,7 @@
         <line num="127" count="36" type="stmt"/>
         <line num="135" count="36" type="stmt"/>
       </file>
-      <file name="MedicationsPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\MedicationsPage.tsx">
+      <file name="MedicationsPage.tsx" path="D:\school\team6.github.io\src\pages\MedicationsPage.tsx">
         <metrics statements="32" coveredstatements="31" conditionals="14" coveredconditionals="12" methods="22" coveredmethods="21"/>
         <line num="17" count="2" type="stmt"/>
         <line num="45" count="90" type="stmt"/>
@@ -262,13 +265,13 @@
         <line num="358" count="64" type="stmt"/>
         <line num="366" count="1" type="stmt"/>
       </file>
-      <file name="MessagesPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\MessagesPage.tsx">
+      <file name="MessagesPage.tsx" path="D:\school\team6.github.io\src\pages\MessagesPage.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="18" count="7" type="stmt"/>
         <line num="45" count="7" type="stmt"/>
         <line num="127" count="14" type="stmt"/>
       </file>
-      <file name="SignInPage.tsx" path="D:\SWEN_661-Team_6-main (1)\SWEN_661-Team_6-main\my-web-app\src\pages\SignInPage.tsx">
+      <file name="SignInPage.tsx" path="D:\school\team6.github.io\src\pages\SignInPage.tsx">
         <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
         <line num="6" count="61" type="stmt"/>
         <line num="7" count="61" type="stmt"/>
