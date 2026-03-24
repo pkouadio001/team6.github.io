@@ -2,11 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/icon-192.png" />
+    <link rel="icon" type="image/png" href="%BASE_URL%icon-192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="CareConnect - Healthcare management for Parkinson's disease patients" />
     <meta name="theme-color" content="#0066FF" />
     <title>CareConnect</title>
+    <script>
+      // Single Page Apps for GitHub Pages - restore original path from 404 redirect
+      (function () {
+        // Handle the ?p= param set by 404.html
+        const search = location.search;
+        if (search) {
+          const params = new URLSearchParams(search);
+          const p = params.get('p');
+          if (p !== null) {
+            const path = '/' + p.replace(/~and~/g, '&');
+            const q = params.get('q');
+            const query = q ? '?' + q.replace(/~and~/g, '&') : '';
+            history.replaceState(null, null, location.pathname.split('?')[0] + path + query + location.hash);
+          }
+        }
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
