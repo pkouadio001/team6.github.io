@@ -11,18 +11,18 @@ export default defineConfig({
       manifest: {
         name: 'CareConnect',
         short_name: 'CareConnect',
-        description: "Healthcare management for Parkinson's disease patients",
+        description: 'Healthcare management for Parkinson\'s disease patients',
         theme_color: '#0066FF',
         background_color: '#ffffff',
         display: 'standalone',
         icons: [
           {
-            src: '/icon-192.png',
+            src: 'icon-192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/icon-512.png',
+            src: 'icon-512.png',
             sizes: '512x512',
             type: 'image/png'
           }

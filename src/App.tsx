@@ -12,7 +12,7 @@ import { LandingPage } from './pages/LandingPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         {/* Public routes - no nav */}
         <Route path="/" element={<LandingPage />} />
