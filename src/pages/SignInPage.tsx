@@ -39,7 +39,7 @@ export function SignInPage() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex items-center justify-center px-4 py-12">
+      <main className="flex-1 flex items-center justify-center px-4 py-12">
         <div className="w-full max-w-md">
           {/* Logo and Welcome */}
           <div className="text-center mb-8">
@@ -160,11 +160,11 @@ export function SignInPage() {
           </div>
 
           {/* Footer */}
-          <p className="text-center text-gray-500 text-sm mt-8">
+          <p className="text-center text-gray-600 text-sm mt-8">
             © 2026 CareConnect. Designed for easy access.
           </p>
         </div>
-      </div>
+      </main>
     </div>
   );
 }

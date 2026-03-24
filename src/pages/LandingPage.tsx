@@ -51,6 +51,7 @@ export function LandingPage() {
         </div>
       </header>
 
+      <main>
       {/* Hero Section */}
       <section className="py-16 sm:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -209,6 +210,7 @@ export function LandingPage() {
           </div>
         </div>
       </section>
+      </main>
 
       {/* Footer */}
       <footer className="bg-gray-900 py-12">
@@ -223,7 +225,7 @@ export function LandingPage() {
             <p className="text-gray-400 text-center mb-2">
               Empowering Parkinson's patients through accessible healthcare technology
             </p>
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-400 text-sm">
               © 2026 CareConnect. Designed with accessibility in view for Parkinson's disease patients.
             </p>
           </div>
